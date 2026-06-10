@@ -97,8 +97,8 @@ const About = () => {
                 <div className="absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-emerald-400/20 bg-emerald-500/10 p-6 shadow-[0_0_30px_rgba(16,185,129,0.12)] hover:border-emerald-300/40 transition-all duration-300">
                   <div className="flex items-start gap-4">
-                    <div className="p-3 bg-emerald-500/20 rounded-xl">
-                      <Code2 className="w-6 h-6 text-emerald-400" />
+                    <div className="p-3 bg-emerald-500/20 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <Code2 className="w-5 h-5 text-emerald-400" />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-lg font-semibold text-white mb-2">
@@ -116,7 +116,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-emerald-400/20 bg-emerald-500/10 p-5 shadow-[0_0_24px_rgba(16,185,129,0.12)] hover:border-emerald-300/40 transition-all duration-300">
-                  <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4">
+                  <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Sparkles className="w-5 h-5 text-primary" />
                   </div>
                   <h3 className="text-base font-semibold text-white mb-2">
@@ -131,7 +131,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
                 <div className="relative overflow-hidden rounded-2xl border border-emerald-400/20 bg-emerald-500/10 p-5 shadow-[0_0_24px_rgba(16,185,129,0.12)] hover:border-emerald-300/40 transition-all duration-300">
-                  <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4">
+                  <div className="p-3 bg-primary/10 rounded-xl w-fit mb-4 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <Download className="w-5 h-5 text-primary" />
                   </div>
                   <h3 className="text-base font-semibold text-white mb-2">
@@ -147,7 +147,7 @@ const About = () => {
                 <div className="absolute inset-0 bg-linear-to-br from-primary/10 to-primary/5 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration:300">
                   {" "}
                 </div>
-                <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 transition-all duration-300">
+                <div className="relative bg-white/5 border border-white/10 rounded-2xl p-6 hover:border-primary/30 hover:bg-primary/10 transition-all duration-300 hover:scale-103">
                   <div className="grid grid-cols-3 gap-6 text-center">
                     <div>
                       <div className="text-2xl font-bold text-primary mb-1">
