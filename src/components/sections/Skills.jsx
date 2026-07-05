@@ -17,6 +17,9 @@ const Skills = () => {
       skills.find((s) => s.name === "Vue.js"),
       skills.find((s) => s.name === "vanilla JavaScript"),
       skills.find((s) => s.name === "SASS"),
+      skills.find((s) => s.name === "React Native"),
+      skills.find((s) => s.name === "CSS"),
+      skills.find((s) => s.name === "HTML"),
     ].filter(Boolean),
     "Backend & APIs": [
       skills.find((s) => s.name === "Node.js"),
@@ -58,6 +61,7 @@ const Skills = () => {
       skills.find((s) => s.name === "Azure"),
       skills.find((s) => s.name === "GCP"),
       skills.find((s) => s.name === "UI/UX Design"),
+      skills.find((s) => s.name === "Vercel"),
     ].filter(Boolean),
   };
 

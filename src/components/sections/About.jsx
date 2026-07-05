@@ -23,6 +23,17 @@ import {
   SiC,
   SiJavascript,
   SiDart,
+  SiSupabase,
+  SiGit,
+  SiPostgresql,
+  SiSqlite,
+  SiGooglecloud,
+  SiVercel,
+  SiCss,
+  SiHtml5,
+  SiJson,
+  SiYaml,
+  SiJquery,
 } from "react-icons/si";
 import { PERSONAL_INFO, ABOUT_STATS } from "../../utils/constants";
 import FadeIn from "../animations/FadeIn";
@@ -46,6 +57,7 @@ const About = () => {
     { name: "Firebase", icon: SiFirebase, color: "#F05032" },
     { name: "PHP", icon: SiPhp, color: "#777BB4" },
     { name: "MySQL", icon: SiMysql, color: "#00758F" },
+    { name: "Supabase", icon: SiSupabase, color: "#3ECF8E" },
     { name: "Vite", icon: SiVite, color: "#00599C" },
     { name: "Python", icon: SiPython, color: "#3776ab" },
     { name: "NestJS", icon: SiNestjs, color: "#2496ED" },
@@ -53,6 +65,16 @@ const About = () => {
     { name: "Vue.js", icon: SiVuedotjs, color: "#4FC08D" },
     { name: "C", icon: SiC, color: "#00599C" },
     { name: "Dart", icon: SiDart, color: "#00599C" },
+    { name: "Git", icon: SiGit, color: "#F05032" },
+    { name: "PostgreSQL", icon: SiPostgresql, color: "#336791" },
+    { name: "SQLite", icon: SiSqlite, color: "#003B57" },
+    { name: "GCP", icon: SiGooglecloud, color: "#4285F4" },
+    { name: "Vercel", icon: SiVercel, color: "#000000" },
+    { name: "CSS", icon: SiCss, color: "#1572B6" },
+    { name: "HTML", icon: SiHtml5, color: "#E34C26" },
+    { name: "JSON", icon: SiJson, color: "#007396" },
+    { name: "YAML", icon: SiYaml, color: "#007396" },
+    { name: "jQuery", icon: SiJquery, color: "#0769AD" },
   ];
 
   return (
