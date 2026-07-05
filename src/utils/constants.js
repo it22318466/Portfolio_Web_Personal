@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   location: "Gampaha, Sri Lanka",
   tagline:
     "Crafting seamless digital experiences with modern web technologies !",
-  resume: "/resume.pdf",
+  resume: "/src/assets/Lochana Kavinda Dev_SE_DevOps_CV.pdf",
   bio: [
     "I'm a passionate Full Stack Developer with over 5 years of experience building scalable. Performant web & mobile applications. I specialize in creating intuitive user interfaces that combine beautiful design with exceptional functionality.",
     "My expertise spans the entire frontend ecosystem, from React, Vue.js, Java, Python, Node.js, Next.js, Express.js, Spring Boot, MERN Stack, Laravel and Flutter to NestJS, JS, TypeScript and modern CSS frameworks. I'm committed to writing clean, maintainable code and staying current with the latest web technologies.",
@@ -16,20 +16,24 @@ export const PERSONAL_INFO = {
 export const SOCIAL_LINKS = {
   github: "https://github.com/it22318466",
   linkedin: "https://www.linkedin.com/in/lochana-kavinda-a08260288",
-  messenger: "https://m.me/lochana.bandara.940",
-  whatsapp: "https://wa.me/qr/G54T77M3Z3EFH1",
-  instagram:
-    "https://www.instagram.com/lochaa_kavi?utm_source=qr&igsh=ejlrcGpvdG5vMnk=",
-  facebook: "https://www.facebook.com/share/1VjfTB2KeV/",
-  tiktok: "https://www.tiktok.com/@lochaa761?_r=1&_t=ZS-97kee9WbD0f",
-  pinterest: "https://pin.it/1Bvx1NL5m",
-  threads: "https://www.threads.com/@lochaa_kavi",
   indeed: "https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage",
   fiverr: "https://www.fiverr.com/lochana_k/buying?source=avatar_menu_profile",
+  phone: "+94 75 783 6574",
+  pinterest: "https://pin.it/1Bvx1NL5m",
+  facebook: "https://www.facebook.com/share/1VjfTB2KeV/",
+  instagram:
+    "https://www.instagram.com/lochaa_kavi?utm_source=qr&igsh=ejlrcGpvdG5vMnk=",
+  messenger: "https://m.me/lochana.bandara.940",
+  whatsapp: "https://wa.me/qr/G54T77M3Z3EFH1",
+  tiktok: "https://www.tiktok.com/@lochaa761?_r=1&_t=ZS-97kee9WbD0f",
+  threads: "https://www.threads.com/@lochaa_kavi",
   twitter: "",
   dribbble: "",
   discord: "",
   reddit: "",
+  youtube: "",
+  viber: "",
+  telegram: "",
 };
 
 export const STATS = [

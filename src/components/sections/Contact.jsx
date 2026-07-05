@@ -1,6 +1,25 @@
 import React, { useState } from "react";
 import { Mail, MapPin, Send, MessageSquare } from "lucide-react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaFacebookMessenger,
+  FaWhatsapp,
+  FaInstagram,
+  FaFacebook,
+  FaTiktok,
+  FaPinterest,
+  FaDribbble,
+  FaDiscord,
+  FaReddit,
+  FaBriefcase,
+  FaDollarSign,
+  FaPhone,
+  FaYoutube,
+  FaViber,
+  FaTelegram,
+} from "react-icons/fa";
 import { PERSONAL_INFO, SOCIAL_LINKS } from "../../utils/constants";
 import FadeIn from "../animations/FadeIn";
 import emailjs from "@emailjs/browser";
@@ -55,7 +74,7 @@ const Contact = () => {
 
       setStatus({
         type: "success",
-        message: "Message sent successfully! I\'ll get back to you soon.",
+        message: "Message sent successfully! I'll get back to you soon.",
       });
       setFormData({ name: "", email: "", message: "" });
 
@@ -73,6 +92,21 @@ const Contact = () => {
     github: FaGithub,
     linkedin: FaLinkedin,
     twitter: FaTwitter,
+    messenger: FaFacebookMessenger,
+    whatsapp: FaWhatsapp,
+    instagram: FaInstagram,
+    facebook: FaFacebook,
+    tiktok: FaTiktok,
+    pinterest: FaPinterest,
+    dribbble: FaDribbble,
+    discord: FaDiscord,
+    reddit: FaReddit,
+    indeed: FaBriefcase,
+    fiverr: FaDollarSign,
+    viber: FaViber,
+    telegram: FaTelegram,
+    youtube: FaYoutube,
+    phone: FaPhone,
   };
 
   return (
@@ -237,23 +271,26 @@ const Contact = () => {
 
             <div>
               <p className="text-sm text-white/60 mb-4">Connect with me</p>
-              <div className="flex gap-4">
-                {Object.entries(SOCIAL_LINKS)
-                  .slice(0, 3)
-                  .map(([platform, url]) => {
-                    const Icon = socialIcons[platform];
-                    return Icon ? (
-                      <a
-                        key={platform}
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300 group"
-                      >
-                        <Icon className="w-3.5 h-3.5 text-white/60 group-hover:text-primary transition-colors" />
-                      </a>
-                    ) : null;
-                  })}
+              <div className="flex flex-wrap gap-4">
+                {Object.entries(SOCIAL_LINKS).map(([platform, url]) => {
+                  const Icon = socialIcons[platform];
+                  return Icon ? (
+                    <a
+                      key={platform}
+                      href={url || "#"}
+                      target={url ? "_blank" : undefined}
+                      rel={url ? "noopener noreferrer" : undefined}
+                      className={`p-4 bg-white/5 rounded-xl border border-white/10 hover:bg-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300 group ${
+                        !url ? "cursor-not-allowed opacity-50" : ""
+                      }`}
+                      aria-label={`Connect on ${platform}`}
+                      title={`Connect on ${platform.charAt(0).toUpperCase() + platform.slice(1)}${!url ? " (Coming Soon)" : ""}`}
+                      onClick={(e) => !url && e.preventDefault()}
+                    >
+                      <Icon className="w-3.5 h-3.5 text-white/60 group-hover:text-primary transition-colors" />
+                    </a>
+                  ) : null;
+                })}
               </div>
             </div>
           </FadeIn>

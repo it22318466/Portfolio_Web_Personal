@@ -1,6 +1,25 @@
 import React from "react";
 import { Mail, MapPin, Heart } from "lucide-react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaFacebookMessenger,
+  FaWhatsapp,
+  FaInstagram,
+  FaFacebook,
+  FaTiktok,
+  FaPinterest,
+  FaDribbble,
+  FaDiscord,
+  FaReddit,
+  FaBriefcase,
+  FaDollarSign,
+  FaViber,
+  FaTelegram,
+  FaYoutube,
+  FaPhone,
+} from "react-icons/fa";
 import { PERSONAL_INFO, SOCIAL_LINKS, NAV_LINKS } from "../../utils/constants";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
@@ -10,6 +29,21 @@ const Footer = () => {
     github: FaGithub,
     linkedin: FaLinkedin,
     twitter: FaTwitter,
+    messenger: FaFacebookMessenger,
+    whatsapp: FaWhatsapp,
+    instagram: FaInstagram,
+    facebook: FaFacebook,
+    tiktok: FaTiktok,
+    pinterest: FaPinterest,
+    dribbble: FaDribbble,
+    discord: FaDiscord,
+    reddit: FaReddit,
+    indeed: FaBriefcase,
+    fiverr: FaDollarSign,
+    viber: FaViber,
+    telegram: FaTelegram,
+    youtube: FaYoutube,
+    phone: FaPhone,
   };
 
   return (
@@ -90,11 +124,15 @@ const Footer = () => {
                   return Icon ? (
                     <a
                       key={platform}
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="group relative p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300"
+                      href={url || "#"}
+                      target={url ? "_blank" : undefined}
+                      rel={url ? "noopener noreferrer" : undefined}
+                      className={`group relative p-4 bg-white/5 border border-white/10 rounded-xl hover:bg-white/10 hover:border-primary/50 hover:scale-110 transition-all duration-300 ${
+                        !url ? "cursor-not-allowed opacity-50" : ""
+                      }`}
                       aria-label={`Connect on ${platform}`}
+                      title={`Connect on ${platform.charAt(0).toUpperCase() + platform.slice(1)}${!url ? " (Coming Soon)" : ""}`}
+                      onClick={(e) => !url && e.preventDefault()}
                     >
                       <Icon className="w-4 h-4 text-white/60 group-hover:text-primary transition-colors duration-300" />
                       <div className="absolute inset-0 bg-linear-to-br from-primary/0 to-primary/0 group-hover:from-primary/10 group-hover:to-primary/5 rounded-xl transition-all duration-300 pointer-events-none" />

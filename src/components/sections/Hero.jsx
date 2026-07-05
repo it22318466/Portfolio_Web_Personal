@@ -6,6 +6,11 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiMongodb,
+  SiNestjs,
+  SiSass,
+  SiLaravel,
+  SiSpring,
+  SiWordpress,
 } from "react-icons/si";
 import { PERSONAL_INFO, STATS } from "../../utils/constants";
 import { scrollToSection } from "../../hooks/useScrollSpy";
@@ -107,6 +112,26 @@ const Hero = () => {
 
                       <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
                         <SiNodedotjs className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
+                        <SiNestjs className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
+                        <SiLaravel className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
+                        <SiWordpress className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
+                        <SiSpring className="w-full h-full text-primary" />
+                      </div>
+
+                      <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
+                        <SiSass className="w-full h-full text-primary" />
                       </div>
 
                       <div className="w-6 h-6 flex items-center justify-center hover:scale-120 transition-transform duration-300">
