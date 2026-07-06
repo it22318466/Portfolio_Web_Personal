@@ -111,7 +111,7 @@ const EducationalQualifications = () => {
       degree: "Diploma in Information Technology",
       institution: "The Golden Key Institute of Information Technology Ltd",
       location: "Colombo, LK",
-      grade: "A",
+      grade: "Grade - A",
       icon: AwardIcon,
       year: "Graduate",
     },
@@ -191,7 +191,7 @@ const EducationalQualifications = () => {
       degree: "Certificate Course of Communication in English",
       institution: "Sun - Vision Institute of English Training",
       location: "Wellawaya, LK",
-      grade: "A",
+      grade: "Grade - A",
       icon: BookCopyIcon,
       year: "Graduate",
     },
@@ -199,7 +199,7 @@ const EducationalQualifications = () => {
       degree: "Certificate in Office Applications Course",
       institution: "Keenadeniya College ICT Education Center, Sri Lanka",
       location: "LK",
-      grade: "A",
+      grade: "Grade - A",
       icon: TiVendorMicrosoft,
       year: "Completed",
     },
@@ -208,7 +208,7 @@ const EducationalQualifications = () => {
       institution:
         "Zonal Information Technology Unit, Minuwangoda Educational Zone",
       location: "LK",
-      grade: "A",
+      grade: "Grade - A",
       icon: IoColorPaletteOutline,
       year: "Completed",
     },
@@ -412,10 +412,11 @@ const EducationalQualifications = () => {
                     <div className="absolute top-28 right-4">
                       <div
                         className={`px-3 py-1 rounded-full text-xs font-medium ${
-                          qual.grade === "First Class" || qual.grade === "A"
+                          qual.grade === "First Class" ||
+                          qual.grade === "Grade - A"
                             ? "bg-[#88F565]/20 text-[#88F565] border border-[#88F565]/40"
                             : qual.grade === "Merit"
-                              ? "bg-[#D31223]/20 text-[#D31223] border border-[#D31223]/40"
+                              ? "bg-[#D31223]/20 text-[#D31223] border border-[#D31223]/50"
                               : "bg-purple-500/20 text-purple-400 border border-purple-500/30"
                         }`}
                       >
