@@ -17,7 +17,7 @@ export const projects = [
     description:
       "Collaborative project management tool with drag and drop kanban boards, real time updates and team collaboration features for efficient task management.",
     image: "/images/projects/project2.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: ["React", "TypeScript", "Firebase", "Tailwind"],
     metrics: "500+ active users",
     demoUrl: "https://timetoprogram.com/projects",
@@ -29,7 +29,7 @@ export const projects = [
     description:
       "A mobile application that helps users track their health metrics, including weight, blood pressure and medication reminders.",
     image: "/images/projects/project3.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: ["React Native", "TypeScript", "Firebase", "Tailwind"],
     metrics: "1K+ downloads",
     demoUrl: "https://timetoprogram.com/projects",
@@ -41,7 +41,7 @@ export const projects = [
     description:
       "Real time social media analytics dashboard with data visualization, sentiment analysis and automated reports generation.",
     image: "/images/projects/project4.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: ["Nect.js", "Chart.js", "PostgreSQL", "Redis"],
     metrics: "10K+ data points/day",
     demoUrl: "https://timetoprogram.com/projects",
@@ -53,7 +53,7 @@ export const projects = [
     description:
       "Beautiful weather application with hourly forecasts, interactive maps, location based alerts and real time updates for accurate weather information.",
     image: "/images/projects/project5.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: ["React", "OpenWeather API", "Mapbox", "Tailwind"],
     metrics: "95% accuracy rate",
     demoUrl: "https://timetoprogram.com/projects",
@@ -89,7 +89,7 @@ export const projects = [
     description:
       "Full-stack learning management system with course management, user authentication, payment processing and order tracking.",
     image: "/images/projects/Smart_Learning_Platform.jpg",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: [
       "Swift",
       "CMake",
@@ -110,7 +110,7 @@ export const projects = [
     description:
       "Full-stack wildlife photography platform with photo galleries, user authentication and portfolio management.",
     image: "/images/projects/Wildlife_Photography_Platform.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: [
       "React",
       "Node.js",
@@ -167,7 +167,7 @@ export const projects = [
     description:
       "A modern smart campus management system built with React, Node.js, Express, API, JS, CSS and MongoDB featuring responsive design, student listings and management functionality.",
     image: "/images/projects/Smart_Campus_Management_System.png",
-    category: "Web Apps",
+    category: "Web & Apps",
     technologies: [
       "React",
       "MongoDB",
@@ -184,4 +184,4 @@ export const projects = [
   },
 ];
 
-export const categories = ["All", "Web Apps", "UI Components", "Full Stack"];
+export const categories = ["All", "Web & Apps", "UI Components", "Full Stack"];

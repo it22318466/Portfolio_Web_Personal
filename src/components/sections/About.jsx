@@ -91,7 +91,8 @@ const About = () => {
                 <div className="inline-flex items-center gap-2.5 px-5 py-2.5 border border-primary/30 bg-primary/10 rounded-full w-fit transition-all duration-300 ease-out hover:border-primary/50 hover:bg-white/10 hover:text-white group hover:scale-105">
                   <Code2 className="w-4 h-4 text-primary group-hover:text-white" />
                   <span className="text-sm text-primary font-medium group-hover:text-white">
-                    Full-Stack Developer
+                    Software Engineer | Mobile & Web Developer | UI/UX
+                    Enthusiast
                   </span>
                   <Sparkles className="w-4 h-4 text-primary group-hover:text-white" />
                 </div>

@@ -58,7 +58,7 @@ const Projects = () => {
   // Category icons mapping
   const categoryIcons = {
     All: Target,
-    "Web Apps": Globe,
+    "Web & Apps": Globe,
     "UI Components": Palette,
     "Full Stack": Zap,
   };
