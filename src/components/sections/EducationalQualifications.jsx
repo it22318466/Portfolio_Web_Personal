@@ -233,7 +233,7 @@ const EducationalQualifications = () => {
         {/* Professional Summary */}
         <FadeIn delay={100}>
           <div className="mb-16">
-            <div className="bg-gradient-to-r from-white/5 to-white/10 border border-white/10 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="group bg-gradient-to-r from-white/5 to-white/10 border border-white/10 rounded-2xl p-8 backdrop-blur-sm hover:border-primary/30 transition-all duration-300">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 bg-primary/10 rounded-xl">
                   <Laptop className="w-6 h-6 text-primary" />
@@ -242,7 +242,7 @@ const EducationalQualifications = () => {
                   <h3 className="text-2xl font-semibold text-white mb-2">
                     Professional Summary
                   </h3>
-                  <p className="text-white/70 leading-relaxed">
+                  <p className="text-white/70 leading-relaxed group-hover:text-[#A8FF8D] transition-colors duration-300">
                     Software Engineer, Full Stack & Web Developer with a First
                     Class BSc (Hons) in Computer Science (Software Engineering)
                     from Kingston University (UK) and hands-on experience in
@@ -329,7 +329,7 @@ const EducationalQualifications = () => {
                         <Icon className="w-6 h-6 text-primary" />
                       </div>
                       <div className="flex-1">
-                        <h4 className="text-lg font-semibold text-white mb-2">
+                        <h4 className="text-lg font-semibold text-white mb-2 group-hover:text-[#A8FF8D] transition-colors duration-300">
                           {qual.degree}
                         </h4>
                         <div className="space-y-1">
@@ -499,10 +499,10 @@ const EducationalQualifications = () => {
         {/* Closing Statement */}
         <FadeIn delay={700}>
           <div className="text-center">
-            <div className="inline-block bg-gradient-to-r from-primary/20 via-primary/10 to-primary/20 border border-primary/20 rounded-2xl p-8 backdrop-blur-sm">
+            <div className="group inline-block bg-black/10 border border-primary/30 rounded-2xl p-8 backdrop-blur-sm hover:border-primary/50 transition-all duration-300">
               <div className="flex items-center justify-center gap-2 mb-4">
                 <Sparkles className="w-6 h-6 text-primary" />
-                <p className="text-xl font-semibold text-white">
+                <p className="text-xl font-semibold text-white group-hover:text-[#A8FF8D] transition-colors duration-300">
                   Code + Create + Innovate + Repeat
                 </p>
                 <Sparkles className="w-6 h-6 text-primary" />
@@ -516,7 +516,7 @@ const EducationalQualifications = () => {
                 software engineering skills.
               </p>
               <div className="mt-6 flex items-center justify-center gap-2">
-                <p className="text-white/80">
+                <p className="text-white/80 group-hover:text-[#A8FF8D] transition-colors duration-300">
                   Thank You for Visiting My Profile...
                 </p>
                 <span className="text-2xl">👋</span>
